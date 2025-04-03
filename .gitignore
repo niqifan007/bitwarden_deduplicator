@@ -1,0 +1,28 @@
+# Python字节码文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 分发和打包
+dist/
+build/
+*.egg-info/
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# IDE文件
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 测试文件
+*.csv
+!example.csv
