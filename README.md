@@ -13,7 +13,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/您的用户名/bitwarden_deduplicator.git
+git clone https://github.com/niqifan007/bitwarden_deduplicator.git
 cd bitwarden_deduplicator
 
 # 安装依赖
