@@ -6,7 +6,7 @@ import chardet
 def detect_encoding(file_path):
     """检测文件编码"""
     with open(file_path, 'rb') as f:
-        raw_data = f.read(10000)  # 读取前10000个字节
+        raw_data = f.read()  # 读取整个文件以确保准确检测编码
         result = chardet.detect(raw_data)
     return result['encoding']
 
